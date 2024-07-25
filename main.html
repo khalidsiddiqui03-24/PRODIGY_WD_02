@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Huzefa Tic-Tac-Toe Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="mode-selection">
+            <button id="playerVsPlayerBtn"><label><input type="radio" name="radio" checked="checked">Player vs Player</label></button>
+            <button id="playerVsAiBtn"><label><input type="radio" name="radio">Player vs AI</label></button>
+        </div>
+        <div id="gameBoard" class="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <button id="restartBtn">Restart</button>
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
